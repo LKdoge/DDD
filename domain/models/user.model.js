@@ -12,6 +12,7 @@ const Schema = mongoose.Schema({
     lastName :     {
         type :String,
         require: true,
+        lowercase: true,
         minLength: 2,
         maxLength: 30
     },
