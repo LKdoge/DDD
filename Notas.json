@@ -1,0 +1,14 @@
+{
+    "DDD": {
+        "Presentacion": "Capa de presentacion, no siempre aplica",
+        "API": "Rutas",
+        "Domain": {
+            "Principal": "Logica de Negocio",
+            "Otros": {
+                "Brokers" : "Kafka",
+                "Otros": "Eventos de dominio"
+            }
+        },
+        "Infr": ["Utilidades", "maps", "etc"]
+    } 
+}
