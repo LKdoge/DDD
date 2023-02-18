@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
-const Schema = Schema({
+/* Schema de la base de datos */
+const Schema = mongoose.Schema({
     name : {
         type: String,
         require: true,
@@ -36,3 +37,4 @@ const Schema = Schema({
 }, {timeStamps : true})
 
 const UserModel = mongoose.model('Users', Schema);
+module.exports = UserModel;
